@@ -28,6 +28,8 @@ p{
     --btn-background : #E02C6D;
     --heading-color : #0A0826;
     --nav-color:#3A3A3A;
+    --border-color :#C0CCDA;
+    --top-padding : 6.25rem;
 }
 
 /* menu design */
@@ -35,7 +37,7 @@ p{
 .menu{
     display: flex;
     justify-content: space-between;
-    padding-top:3rem;
+    padding:3rem 0;
 }
 .menu ul{
     display: flex;
@@ -55,5 +57,56 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap:1.5rem;
-    padding:3.5rem 0;
+    padding:4rem 0;
+}
+.head-text h1{
+    color:var(--heading-color);
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+.head-text p{
+    color: var(--nav-color);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: normal;
+    margin:1rem 0;
+}
+.head-text button{
+    padding:0.6rem 1.5rem;
+    background-color:var(--btn-background);
+    border-radius: 2.5rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: normal;
+    border:none;
+    cursor: pointer;
+}
+.sponsor{
+    margin-top:3rem;
+}
+.all-image{
+    display: flex;
+    justify-content: space-around;
+    padding: 2.1rem 1rem;
+    border-top:2px solid var(--border-color);
+    border-bottom:2px solid var(--border-color);
+}
+.photocollection{
+    padding-top:var(--top-padding)
+}
+.photocollection h2{
+    color: #3A3A3A;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px; /* 250% */
+}
+.popular-title{
+    color:var(--heading-color);
+    text-align: center;
+    padding-bottom:1.8rem;
 }
