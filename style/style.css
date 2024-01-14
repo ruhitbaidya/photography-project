@@ -271,3 +271,41 @@ letter-spacing: 0.252px;
         width:100%;
     }
 }
+
+@media screen and (min-width:576px) and (max-width:1050px) {
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        gap:30px;
+    }
+    .header-content{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .head-text, .head-image{
+        width:100%;
+        text-align: center;
+    }
+    .row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fetcher-product{
+        grid-template-columns: 1fr;
+        gap:20px;
+    }
+    .head-text h1{
+        font-size: 2rem;
+    }
+    .content-fetcher h3{
+        font-size: 2rem;
+    }
+    .menu ul{
+        margin:0 auto;
+    }
+    .image-fetcher img{
+        width:100%;
+    }
+    .head-image img{
+        width:100%;
+    }
+}
