@@ -7,9 +7,7 @@ font-family: 'Poppins', sans-serif; */
   box-sizing: border-box;
   list-style: none;
 }
-img{
-    width: 100%;
-}
+
 /* common layout */
 body {
   font-family: "Poppins", sans-serif;
@@ -45,6 +43,7 @@ button {
 }
 .menu ul {
   display: flex;
+  flex-wrap: wrap;
 }
 .menu ul li a {
   margin-right: 2rem;
@@ -139,6 +138,9 @@ button {
 }
 .fetcher-product {
   padding: 6.25rem 0;
+}
+.image-fetcher img{
+    width:100%;
 }
 .fetcher-product {
   display: grid;
