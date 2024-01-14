@@ -139,9 +139,7 @@ button {
 .fetcher-product {
   padding: 6.25rem 0;
 }
-.image-fetcher img{
-    width:100%;
-}
+
 .fetcher-product {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -264,5 +262,8 @@ letter-spacing: 0.252px;
     }
     .menu ul{
         margin:0 auto;
+    }
+    .image-fetcher img{
+        width:100%;
     }
 }
