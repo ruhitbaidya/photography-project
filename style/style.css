@@ -256,4 +256,7 @@ letter-spacing: 0.252px;
     .content-fetcher h3{
         font-size: 2rem;
     }
+    .menu ul{
+        margin:0 auto;
+    }
 }
