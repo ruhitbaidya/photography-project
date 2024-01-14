@@ -7,7 +7,9 @@ font-family: 'Poppins', sans-serif; */
   box-sizing: border-box;
   list-style: none;
 }
-
+img{
+    width: 100%;
+}
 /* common layout */
 body {
   font-family: "Poppins", sans-serif;
@@ -251,7 +253,6 @@ letter-spacing: 0.252px;
     .fetcher-product{
         grid-template-columns: 1fr;
         gap:20px;
-        text-align: center;
     }
     .head-text h1{
         font-size: 2rem;
